@@ -1,0 +1,149 @@
+.number-input-container{
+  
+  border-radius: 0px;
+  border-radius: 0px;
+background: #121212;
+box-shadow:  5px 5px 5px #070707,
+             -4px -4px 5px #1d1d1d;
+  width: 290px;
+  height: 480px;
+  text-align: center;
+ margin: auto;
+ padding: 20px;
+ border-radius: 8px;
+margin-top: 120px;
+}
+center{
+  text-decoration: underline;
+}
+input{
+  border-radius: 4px !important;
+  height: 45px;
+  border-radius: 0px;
+  border: none !important;
+  background: #121212 !important;
+  box-shadow: inset 5px 5px 5px #070707,
+              inset -4px -4px 5px #1d1d1d !important;
+}
+.sepr{
+  margin-top: 25px;
+}
+body{
+ background-color: #121212 !important;
+
+  
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+
+@keyframes blink {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+center{
+  color:white;
+  text-decoration: none !important;
+}
+button:hover{
+  
+}
+
+input{
+  color:white !important;
+
+}
+.frame{
+ 
+  border: 13px solid rgb(255, 255, 255);
+}
+
+.button-row{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+button{
+  
+  border: none !important;
+
+background: linear-gradient(145deg, #101010, #131313);
+box-shadow:  4px 3px 2px #070707,
+             -2px -2px 5px #1d1d1d;
+  width:74px;
+  height: 38px;
+  color: white !important;
+  margin-top: 5px !important;
+}
+.icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.locker-rotate {
+  animation: rotateLocker 6.5s linear;
+}
+
+@keyframes rotateLocker {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1430deg);
+  }
+}
+
+
+
+@keyframes blinkBackground {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.input-field.blink {
+  animation: blinkBackground 0.5s infinite alternate;
+  border: none;
+}
+#ent button{
+  border: 2px solid red !important;
+}
+.res{
+  width: 100%;
+  border-radius: 300px !important;
+  border: 1px solid white !important;
+}
+#del{
+  border: 1px solid white !important;
+ 
+}
+#entr{
+  border: 1px solid white !important;
+}
+button{
+  border-radius: 2px !important;
+}
+button:hover{
+  border: 1px solid white !important;
+}
